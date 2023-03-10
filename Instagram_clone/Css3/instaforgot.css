@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    border: 1px solid  rgb(142, 142, 142);;
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.container{
+    box-sizing: border-box;
+    border: 1px solid rgb(142, 142, 142);
+    margin: auto;
+    margin-top: 30px;
+    height:630px;
+    width: 450px;
+    background-color:white; 
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.trouble{
+    padding:3px;
+    display: flex;
+    font-size: x-large;
+    font-weight: 500;
+    justify-content: center;   
+}
+.enter{
+    display: flex;
+    padding:2px;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    color:  rgb(142, 142, 142);
+}
+.input{
+    display:flex;
+    margin-left: 50px;
+}
+.name{
+    margin-top: 15px;
+    color:rgb(142, 142, 142);
+    text-align: center;
+    height: 50px;
+    width:320px;
+    border-radius:5px;
+}
+.btn-primary{
+    margin-top: 15px;
+    background-color:#47afff;
+    border-color:white;
+    border-radius: 10px;
+    height: 40px;
+    width: 320px;
+}
+.cant{
+    text-align: center;
+}
+.can{
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 55, 107);
+}
+.or{
+    text-align: center;
+    color: rgb(142, 142, 142);
+}
+hr {
+    border: none;
+    border-top: 1px solid black;
+    overflow: visible;
+    text-align: center;
+}
+hr:after {
+    background:white;
+    content: 'OR';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-weight: 600;
+}
+.create{
+    text-align: center;
+    margin-top: 30px;
+}
+.cre{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.container2{
+    margin: auto;
+    margin-top: -1px;
+    border: 1px solid rgb(142, 142, 142);
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    padding: 10px;
+}
+.back{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding: auto;
+}
+.footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:935px;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-left: 100px;
+  }  
+  .footer-nav ul li {
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom:7px;
+  } 
+  
+  .footer-nav ul li a {
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+
+  }
+  .footer-logo{
+    text-align:center;
+    font-size: medium;
+    margin-left: 300px;
+    color: rgb(142, 142, 142);
+  }
+  .down{
+    margin-top: 50px;
+    margin-left: 310px;
+  }

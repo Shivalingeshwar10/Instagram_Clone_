@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+   border: 1px solid  rgb(142, 142, 142);
+    margin:auto;
+    margin-top: 50px;
+    height:495px;
+    width: 420px;
+    display: flexbox;
+    background: #fff;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+.instagram{
+    max-width: 70%;
+    max-height: 70%; 
+
+}
+.insta{
+    font-weight: bolder;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color:rgb(142, 142, 142);
+    text-align: center;
+    height: 50px;
+    width:320px;
+    margin-left: auto;
+    border-radius:5px;
+    margin-left: 50px;
+}
+.password{
+    color:rgb(142, 142, 142);
+    text-align: center;
+    height: 50px;
+    width:320px;
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: larger;
+    background-color:#47afff;
+    border-color:white;
+    border-radius: 10px;
+    height: 40px;
+    width: 320px;
+}
+hr {
+    border: none;
+    border-top: 1px solid black;
+    overflow: visible;
+    text-align: center;
+    color: black;
+}
+hr:after {
+    background:white;
+    content: 'OR';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-weight: 600;
+}
+.or{
+    margin-left:195px;
+    color:black;
+    text-align:right;
+    font-size: large;
+}
+.image{
+    width:30px;
+}
+.face{
+    display: grid;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.book{
+    text-decoration: none;
+}
+.for{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.facebook{  
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 55, 107);
+}
+.forgot{  
+text-decoration: none;
+color: rgb(0, 55, 107);
+}
+.card2{
+    display: flex;
+    border: 1px solid rgb(142, 142, 142);
+    margin: auto;    
+    height: 80px;
+    width: 420px;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.signup{
+    font-weight: 600;
+    padding: 10px;
+    text-decoration:none; 
+
+}
+.dont{
+    margin-left: 85px;
+}
+.card3{
+    margin:auto;
+    text-align: center;
+}
+.google{
+    display: flex;
+    margin: auto;
+    height:80px;
+    width: 360px;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.bn45{
+    width: 170px;
+    height: 50px;
+}
+.bn44 {
+    width: 150px;
+    height: 50px;
+  }
+.footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:935px;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-left: 100px;
+  }  
+  .footer-nav ul li {
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom:7px;
+  } 
+  
+  .footer-nav ul li a {
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+
+  }
+  .footer-logo{
+    text-align:center;
+    font-size: medium;
+    margin-left: 290px;
+    color: rgb(142, 142, 142);
+  }
+  .down{
+  margin:auto;
+  text-align: initial;
+  width: fit-content;
+  margin-top:10px ;
+  }
